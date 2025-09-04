@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* cách đều nhau */
+  align-items: center;
+  width: 400px; /* chiều rộng tổng */
+  margin: 20px auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px; /* bo góc nhẹ cho đẹp */
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
