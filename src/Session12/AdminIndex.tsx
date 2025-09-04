@@ -1,13 +1,19 @@
 export default function AdminIndex() {
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
-      <Header />
-      <div style={{ display: "flex", flex: 1 }}>
-        <Menu />
-        <Main />
+    <>
+      <hr />
+      <h1>Bài 6</h1>
+      <div
+        style={{ display: "flex", flexDirection: "column", height: "100vh" }}
+      >
+        <Header />
+        <div style={{ display: "flex", flex: 1 }}>
+          <Menu />
+          <Main />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 
