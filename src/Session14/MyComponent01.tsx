@@ -5,7 +5,7 @@ interface MyState {
   message: string;
 }
 
-class MyComponent extends Component<{}, MyState> {
+class MyComponent01 extends Component<{}, MyState> {
   constructor(props: {}) {
     super(props);
     // Khởi tạo state
@@ -37,4 +37,4 @@ class MyComponent extends Component<{}, MyState> {
   }
 }
 
-export default MyComponent;
+export default MyComponent01;
