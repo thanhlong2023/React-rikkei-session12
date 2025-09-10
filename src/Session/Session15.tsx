@@ -4,6 +4,7 @@ import Date3 from "../Session15/Date3";
 import Progress4 from "../Session15/Progress4";
 import StudentTable from "../Session15/Student5/StudentTable";
 import { mockStudents } from "../Session15/Student5/mock";
+import TodoListAnimated from "../Session15/TodoListAnimated";
 
 export default function Session15() {
   return (
@@ -19,6 +20,7 @@ export default function Session15() {
       <Progress4 />
       <h3>Bai 5</h3>
       <StudentTable students={mockStudents} />
+      <TodoListAnimated />
     </div>
   );
 }

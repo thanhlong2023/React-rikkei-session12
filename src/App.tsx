@@ -3,6 +3,7 @@ import Session12 from "./Session/Session12";
 import Session13 from "./Session/Session13";
 import Session14 from "./Session/Session14";
 import Session15 from "./Session/Session15";
+import Session16 from "./Session/Session16";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Session14 />
 
       <Session15 />
+
+      <Session16 />
     </>
   );
 }
